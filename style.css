@@ -1,0 +1,49 @@
+/*  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+:root{
+    --bg_color: #222222;
+    --primary: #5f60b3;
+    --secondary: #e7e7e7;
+    --tertiary: #7d7d7d;
+    --bg_gradient: radial-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.84));
+    --bg_gradient_portfolio: linear-gradient(to bottom,rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.78),rgba(0, 0, 0, 0.80));
+    --ease_out: 0.5s ease-out;
+}
+
+
+/* Customized scrollbar */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track{
+    background: #323232;
+    opacity: 0.6;
+}
+/* Scrollbar Handle */
+::-webkit-scrollbar-thumb{
+    background: #404040;
+    border-radius: 20px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #3f3f3f;
+}
+
+
+
+/* End Of CSS */
